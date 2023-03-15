@@ -30,11 +30,11 @@ export const useSignup = () => {
       // update auth context
       dispatch({ type: "LOGIN", payload: data });
     }
+  };
 
-    return {
-      signup,
-      isLoading,
-      error,
-    };
+  return {
+    signup,
+    isLoading,
+    error,
   };
 };

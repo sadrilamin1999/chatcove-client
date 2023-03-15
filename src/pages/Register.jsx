@@ -17,13 +17,6 @@ const Register = () => {
     e.preventDefault();
 
     await signup(formFields.name, formFields.email, formFields.password);
-
-    // clear state
-    setFormFields({
-      name: "",
-      email: "",
-      password: "",
-    });
   };
   return (
     <div className="register flex justify-center mt-20">

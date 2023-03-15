@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <header className="py-10 flex justify-between">
-      <div className="logo text-xl hover:text-violet-600 duration-300">
+      <div className="logo text-xl hover:text-violet-600    duration-300">
         <Link to="/">Chatcove</Link>
       </div>
       <nav>
